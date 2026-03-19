@@ -9,10 +9,8 @@ unsigned long last_time = 0;
  
 
 // Concept taken from:
-// https://github.com/Alexander-Evans-Moncloa/robot-mouse/blob/main/mouse_code.cpp
-// https://microcontrollerslab.com/pid-controller-implementation-using-arduino/
 //Mouse Project involving mouse and sensing, magnetic fields, PWM and PID control
-//We have omitted ki and kd and chosen to use a PWM approach
+
 void setup() {
   Serial.begin(9600);
 //Setting pin mode operation 
