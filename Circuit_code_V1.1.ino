@@ -1,8 +1,8 @@
 // Define pins to be used by Arduino
-const int motorPinL = D3;
-const int motorPinR = D4;
-const int sensorPinL = A3;
-const int sensorPinR = A4;
+const int motorPinL = D5;
+const int motorPinR = D6;
+const int leftSensorPin = A0;
+const int rightSensorPin = A1;
 float previous_error = 0.0; 
 float integral = 0.0; 
 unsigned long last_time = 0;   
